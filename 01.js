@@ -10,35 +10,35 @@
 
 // Dica: Sempre depois de uma linha de código feita coloque ; para não ter dor de cabeça depois
 
-let nome = "Anthony"
+let nome = "Anthony";
 
-let cidade = "Rio de janeiro"
+let cidade = "Rio de janeiro";
 
-nome = "Thony"
+nome = "Thony";
 
-cidade = "São paulo"
+cidade = "São paulo";
 
-console.log("Olá meu nome é",nome,"e moro em",cidade)
+console.log("Olá meu nome é",nome,"e moro em",cidade);
 
 //Tipos de dados
 
 //String
-let name = "String é tipo de texto"
+let name = "String é tipo de texto";
 
 //Number não tem diferencia do decimal para inteiro
-let number = 70
+let number = 70;
 
 //boolean
-let maiorIdade = true
+let maiorIdade = true;
 
 //Array
 let lista = ["A, b , B"]
 
 //Objeto
 let pessoa = {
-    nome: Anthony
-    idade: 18
-    Cidade: São paulo
+    nome: Anthony;
+    idade: 18;
+    Cidade: São paulo;
 }
 
 pessoa.idade // console.log vai mostrar só a idade dentro do objeto
