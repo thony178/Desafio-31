@@ -1,5 +1,7 @@
 // Aula 07 - Funções
 
+// Funções pode tornar uma parte do codigo reltilizavel
+
 console.log("Boa tarde!")
 console.log("Boa tarde!")
 console.log("Boa tarde!")
