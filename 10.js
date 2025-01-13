@@ -46,10 +46,10 @@ livro1.informcoes()
 
 // EX02 
 class ContaBancaria {
-    constructor() {
-        this.Banco
-        this.Conta
-        this.Valor
+    constructor(Banco, Conta, Valor) {
+        this.Banco = Banco
+        this.Conta = Conta
+        this.Valor = Valor
     }
 
     depositar (){
@@ -62,3 +62,64 @@ class ContaBancaria {
 }
 const conta1 = new ContaBancaria("Inter", "Anthony C.Z.", "1.503,55")
 conta1.depositar()
+
+// EX03
+class Pessoa {
+    constructor(Nome){
+        this.Nome = Nome
+    }
+
+    BoasVindas(){
+        console.log(`Bem Vindo ${this.Nome}`)
+    }
+}
+const Nome1 = new Pessoa("Anthony")
+Nome1.BoasVindas()
+
+// EX04
+class Calculadora {
+    constructor(Nu1, Nu2){
+        this.Nu1 = Nu1
+        this.Nu2 = Nu2
+    }
+    
+    somar() {
+        let soma = this.Nu1 + this.Nu2;
+        console.log(`Está conta  ${this.Nu1} + ${this.Nu2} a res é ${soma}`)
+    }
+
+    sumtrair() {
+        let soma = this.Nu1 - this.Nu2;
+        console.log(`Está conta  ${this.Nu1} - ${this.Nu2} a res é ${soma}`)
+    }
+
+    multiplicar() {
+        let soma = this.Nu1 * this.Nu2;
+        console.log(`Está conta  ${this.Nu1} * ${this.Nu2} a res é ${soma}`)
+    }
+
+    dividir() {
+        let soma = this.Nu1 / this.Nu2;
+        console.log(`Está conta  ${this.Nu1} / ${this.Nu2} a res é ${soma}`)
+    }
+}
+let calc = new Calculadora(2, 3); 
+calc.somar();
+calc.sumtrair();
+calc.multiplicar();
+calc.dividir();
+
+// EX05
+class Agenda {
+    constructor(Nome, Data, Inf){
+        this.Nome = Nome
+        this.Data = Data
+        this.Inf = Inf
+    }
+    
+    evento(){
+        console.log(`Neste evento ${this.Nome}, do dia ${this.Data}, foi marcado isso ${this.Inf}`)
+    }
+}
+const Agenda1 = new Agenda("Festa Aniversario", "15/11", "Aniversario do Juninho");
+Agenda1.evento();
