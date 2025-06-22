@@ -12,6 +12,8 @@ Se você quiser acompanhar esse desafio ou estudar os mesmos conteúdos, acesse 
 
 [Desafio 31 Dias - Notion](https://umporcentoprogramador.notion.site/Desafio-31-dias-14eb1e7da8f280b69980cc0a57dab7ec)
 
+[Desafio de Lógica de programação - Notion](https://umporcentoprogramador.notion.site/desafios-l-gica-1d6b1e7da8f2808eb511ed3b070e094d)
+
 ## 📌 Licença
 
 Este projeto está licenciado sob a **Licença Pública Geral** – o uso é completamente livre. Fique à vontade para estudar, modificar e compartilhar o conteúdo deste repositório!
